@@ -28,7 +28,7 @@ export default function Navbar() {
       <nav>
         <div className="container">
           <div className="logoA">
-            <NavLink to="/React-Portfolio">Ali</NavLink>
+            <NavLink to="/reactport">Ali</NavLink>
           </div>
           <ul className={`navLinks ${visible ? "menu" : ""}`}>
             <li>

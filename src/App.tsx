@@ -7,7 +7,7 @@ import Layout from "./components/Layout/Layout";
 
 const routuer = createBrowserRouter([
   {
-    path: "React-Portfolio",
+    path: "reactport",
     element: <Layout />,
     children: [
       // { path: "", element: <Home /> },
