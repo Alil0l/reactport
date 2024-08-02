@@ -1,0 +1,16 @@
+.portfolio {
+  @apply flex flex-col items-center text-center justify-center bg-gray-200 h-screen;
+  h1.tit {
+    @apply text-slate-800;
+  }
+  .lines {
+    @apply flex w-1/6 text-lg  mb-4  text-slate-800 justify-evenly items-center;
+    .line {
+      @apply w-20 h-2 bg-slate-800 rounded-3xl;
+    }
+  }
+}
+
+.cards {
+  @apply container lg:px-40 lg:py-12 grid grid-cols-3 gap-8;
+}

@@ -1,0 +1,9 @@
+h1.tit {
+  @apply text-4xl font-bold mb-4 uppercase text-white text-center;
+}
+.lines {
+  @apply flex w-1/6 text-lg  mb-4  text-white justify-evenly items-center;
+  .line {
+    @apply w-20 h-2 bg-white rounded-3xl;
+  }
+}

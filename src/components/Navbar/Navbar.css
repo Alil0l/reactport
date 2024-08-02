@@ -1,0 +1,35 @@
+.navB {
+  @apply relative h-24;
+}
+
+nav {
+  @apply relative h-full left-0 top-0 w-full px-8 py-4 bg-slate-700;
+}
+
+.container {
+  @apply flex justify-between h-full items-center;
+}
+
+.logoA {
+  @apply text-3xl font-bold text-white uppercase;
+}
+
+.navLinks {
+  @apply flex max-lg:hidden gap-4 text-lg font-bold text-gray-900 min-w-40;
+}
+
+.navLinks li a {
+  @apply text-white px-2 py-2;
+}
+
+button.menuButton {
+  @apply lg:hidden text-white;
+}
+
+.menu {
+  @apply absolute top-full right-0 w-full items-center bg-slate-700 flex flex-col py-4 px-8;
+}
+
+li .active {
+  @apply bg-teal-500 rounded-lg;
+}

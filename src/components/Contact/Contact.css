@@ -1,0 +1,36 @@
+.form {
+  @apply bg-gray-200 h-screen flex flex-col justify-center items-center;
+  h1.tit {
+    @apply text-4xl font-bold mb-4 uppercase text-slate-800;
+  }
+  .lines {
+    @apply flex w-1/6 text-lg  mb-4  text-slate-800 justify-evenly items-center;
+    .line {
+      @apply w-20 h-2 bg-slate-800 rounded-3xl;
+    }
+  }
+}
+
+.form-container {
+  @apply p-6 rounded-lg w-full max-w-4xl mx-auto;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.form-label {
+  @apply block text-slate-800 text-sm font-bold mb-2;
+}
+
+.form-input {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-slate-800 leading-tight focus:outline-none;
+}
+
+.form-action {
+  @apply flex items-center justify-between;
+}
+
+.form-button {
+  @apply block bg-slate-800 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded focus:outline-none;
+}

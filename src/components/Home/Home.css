@@ -1,0 +1,12 @@
+.home {
+  @apply text-center text-white bg-teal-500 h-screen flex flex-col justify-center items-center;
+
+  p {
+    @apply text-lg;
+  }
+}
+.profile {
+  img {
+    @apply block w-80 mb-8;
+  }
+}
